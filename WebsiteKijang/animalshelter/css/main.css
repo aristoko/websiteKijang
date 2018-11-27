@@ -2332,6 +2332,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
 }
 
+.about-area {
+  background: url(../img/IMG_20181127_125242.jpg) center;
+  background-size: cover;
+}
+
 .banner-area .primary-btn {
   padding-left: 30px;
   padding-right: 30px;
@@ -2569,6 +2574,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 330px;
 }
 
+.about-a-video-right {
+  background: url(../img/IMG_20181127_125242.jpg) no-repeat center;
+  background-size: cover;
+  height: 330px;
+}
+
+
 .about-video-right .overlay-bg {
   background-color: #000;
   opacity: .2;
@@ -2634,6 +2646,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .video-area .video-wrap {
   background: url(../img/video-bg.jpg) center;
+  background-size: cover;
+}
+
+.about-area .about-wrap {
+  background: url(../img/IMG_20181127_125242.jpg) center;
   background-size: cover;
 }
 
