@@ -31,13 +31,7 @@ $(document).ready(function() {
         }
     });
 
-    $('.play-btn').magnificPopup({
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-        fixedContentPos: false
-    });
+ 
 
 
 
@@ -121,6 +115,17 @@ $(document).ready(function() {
                 return false;
             }
         }
+    });
+
+
+    $('.nav-menu .button').on('click', function() {
+        var input = document.getElementById('search');
+        if(input.value ===''){
+            return;
+        }
+        var url = "https://www.google.com/#q="+input.value;
+        window.open(url, '_blank');
+         
     });
 
     $(document).ready(function() {
